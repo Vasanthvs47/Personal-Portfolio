@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div class="manu">
+        <div class="Logo">
+            <h1>VASANTH</h1>
+        </div>
+        <div class="right">
+            <div class="icon" onclick="MyFunction(this)">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <div class="options" id="OP">
+                <a href="#Home"><div>Home</div></a>
+                <a href="#About"><div>About</div></a>
+                <a href="#Skills"><div>Skills</div></a>
+                <a href="#Certificates"><div>Certificates</div></a>
+                <a href="#Contact"><div>Contact</div></a>
+            </div>
+        </div>
+    </div>
+        <button id="UP" onclick="ScrollTop()"><img src="up-arrow.png" alt="UP"  class="Up-image"></button>
+    <section class="Home">
+        <div class="welcome-image">
+            <div class="circle">
+                <img src="Me1.jpeg" alt="Working">
+            </div>
+        </div>
+        <div class="welcome">
+            <p>Hi I'm</p>
+            <h1>VASANTH</h1>
+            <h3>Java and Web Developer</h3>
+            <div class="social">
+                <a href="https://wa.me/6382374339" target="_blank"><img src="whatsapp.png" alt="whatsapp" class="img1"></a>
+                <a href="https://www.instagram.com/vasanth__45/" target="_blank"><img src="instagram.png" alt="instagram" class="img2"></a>
+                <a href="https://www.linkedin.com/in/vasanth-m-7203b5249/" target="_blank"><img src="linkedin.png" alt="linkedin" class="img3"></a>
+            </div>
+        </div>
+    </section>
+    <section class="temp" id="Home"></section>
+    <section class="About" id="About">
+        <div class="profile">
+            <div class="img-bor"></div>
+            <img src="ME.jpeg" alt="My Photo">
+        </div>
+        <div class="details">
+            <h1>Vasanth M</h1>
+            <h3>Java and Web Developer</h3>
+            <p>Hi there. I am Vasanth a Passionate and skilled Web Developer with a Bachelor's in Computer science in Engineering. Proficient in Python,Java , HTML, CSS, Bash, postgreSQL and javascript. Completed responsive web design And JavaScript courses and certified in freecodecamp.</p>
+            <div class="new-dl">
+                    <div class="D">
+                        <div class="Dot"></div>
+                        <h4>FROM: </h4><p>Dharmapuri,TamilNadu,India</p>
+                    </div>
+                    <div class="Line"></div>
+                    <div class="D">
+                        <div class="Dot"></div>
+                        <h4>LIVES IN: </h4><p>Dharmapuri,TamilNadu,India</p>
+                    </div>
+                    <div class="Line"></div>
+                    <div class="D">
+                        <div class="Dot"></div>
+                        <h4>AGE: </h4><p>20</p>
+                    </div>
+                    <div class="Line"></div>
+                    <div class="D">
+                        <div class="Dot"></div>
+                        <h4>GENDER: </h4><p>Male</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="Skills" id="Skills">
+        <h1>Skills</h1>
+        <div class="progress">
+            <span>HTML</span>
+            <div class="progress-bar" data-percentage="85">85%</div>
+        </div>
+        <div class="progress">
+            <span>CSS</span>
+            <div class="progress-bar" data-percentage="80">80%</div>
+        </div>
+        <div class="progress">
+            <span>JAVA</span>
+            <div class="progress-bar" data-percentage="75">75%</div>
+        </div>
+        <div class="progress">
+            <span>PYTHON</span>
+            <div class="progress-bar" data-percentage="75">75%</div>
+        </div>
+        <div class="progress">
+            <span>JAVASCIPT</span>
+            <div class="progress-bar" data-percentage="70">70%</div>
+        </div>
+        <img src="database.png" alt="database" class="database">
+        <img src="python.png" alt="python" class="python">
+    </section>
+    <section class="Certificates" id="Certificates">
+        <h1>Certificates</h1>
+        <div class="certified">
+            <img src="freecodecamp1.jpeg" alt="freecodecamp" class="t1 box1">
+            <img src="guvi1.jpeg" alt="guvi" class="t2 box1">
+            <img src="freecodecamp2.jpeg" alt="freecodecamp" class="t1 box1">
+            <img src="guvi2.jpeg" alt="guvi" class="t2 box1">
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <div class="image2">
+            <h1>Want to Contact?</h1>
+            <img src="message.png" alt="message me">
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname">
+          
+              <label for="Email">Email</label>
+              <input type="email" id="lname" name="lastname">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit" class="submit">
+          
+            </form>
+          </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
